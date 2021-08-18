@@ -6,10 +6,10 @@
 
 public class Ex2 {
     public static void main(String[] args) {
-        int val1 = Integer.valueOf("101011", 2);
-        int val2 = Integer.valueOf("43", 8);
+        int val1 = 0b101011;
+        int val2 = 042;
         int val3 = 43;
-        int val4 = Integer.valueOf("43", 16);
+        int val4 = 0x42b;
         System.out.println(val1);
         System.out.println(val2);
         System.out.println(val3);
